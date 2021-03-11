@@ -1,0 +1,286 @@
+[2021-03-08 17:19:33] local.ERROR: syntax error, unexpected '}', expecting ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}', expecting ';' at /var/www/html/novo-projeto/routes/web.php:18)
+[stacktrace]
+#0 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register()
+#1 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(382): Illuminate\\Routing\\Router->loadRoutes()
+#2 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(135): Illuminate\\Routing\\Router->group()
+#3 /var/www/html/novo-projeto/app/Providers/RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group()
+#4 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#9 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#10 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#14 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#15 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#16 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(113): Illuminate\\Container\\Container->call()
+#17 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(895): Illuminate\\Foundation\\Application->bootProvider()
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#20 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(896): array_walk()
+#21 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#23 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#24 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 /var/www/html/novo-projeto/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
+[2021-03-08 17:20:00] local.ERROR: syntax error, unexpected '}', expecting ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}', expecting ';' at /var/www/html/novo-projeto/routes/web.php:18)
+[stacktrace]
+#0 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register()
+#1 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(382): Illuminate\\Routing\\Router->loadRoutes()
+#2 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(135): Illuminate\\Routing\\Router->group()
+#3 /var/www/html/novo-projeto/app/Providers/RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group()
+#4 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#9 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#10 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#14 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#15 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#16 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(113): Illuminate\\Container\\Container->call()
+#17 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(895): Illuminate\\Foundation\\Application->bootProvider()
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#20 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(896): array_walk()
+#21 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#23 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#24 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 /var/www/html/novo-projeto/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
+[2021-03-08 17:31:03] local.ERROR: syntax error, unexpected '}', expecting ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}', expecting ';' at /var/www/html/novo-projeto/routes/web.php:18)
+[stacktrace]
+#0 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register()
+#1 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(382): Illuminate\\Routing\\Router->loadRoutes()
+#2 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(135): Illuminate\\Routing\\Router->group()
+#3 /var/www/html/novo-projeto/app/Providers/RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group()
+#4 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#9 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#10 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#14 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#15 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#16 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(113): Illuminate\\Container\\Container->call()
+#17 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(895): Illuminate\\Foundation\\Application->bootProvider()
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#20 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(896): array_walk()
+#21 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#23 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#24 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 /var/www/html/novo-projeto/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
+[2021-03-08 17:31:10] local.ERROR: syntax error, unexpected '}', expecting ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}', expecting ';' at /var/www/html/novo-projeto/routes/web.php:18)
+[stacktrace]
+#0 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register()
+#1 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(382): Illuminate\\Routing\\Router->loadRoutes()
+#2 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(135): Illuminate\\Routing\\Router->group()
+#3 /var/www/html/novo-projeto/app/Providers/RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group()
+#4 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#9 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#10 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#14 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#15 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#16 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(113): Illuminate\\Container\\Container->call()
+#17 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(895): Illuminate\\Foundation\\Application->bootProvider()
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#20 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(896): array_walk()
+#21 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#23 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#24 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 /var/www/html/novo-projeto/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
+[2021-03-08 17:31:18] local.ERROR: syntax error, unexpected '}', expecting ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}', expecting ';' at /var/www/html/novo-projeto/routes/web.php:18)
+[stacktrace]
+#0 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register()
+#1 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(382): Illuminate\\Routing\\Router->loadRoutes()
+#2 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(135): Illuminate\\Routing\\Router->group()
+#3 /var/www/html/novo-projeto/app/Providers/RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group()
+#4 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#9 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#10 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#14 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#15 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#16 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(113): Illuminate\\Container\\Container->call()
+#17 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(895): Illuminate\\Foundation\\Application->bootProvider()
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#20 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(896): array_walk()
+#21 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#23 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#24 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 /var/www/html/novo-projeto/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
+[2021-03-08 17:36:08] local.ERROR: syntax error, unexpected '}', expecting ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}', expecting ';' at /var/www/html/laravel/novo-projeto/routes/web.php:18)
+[stacktrace]
+#0 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register()
+#1 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(382): Illuminate\\Routing\\Router->loadRoutes()
+#2 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(135): Illuminate\\Routing\\Router->group()
+#3 /var/www/html/laravel/novo-projeto/app/Providers/RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group()
+#4 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#9 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#10 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#14 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#15 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#16 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(113): Illuminate\\Container\\Container->call()
+#17 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(895): Illuminate\\Foundation\\Application->bootProvider()
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#20 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(896): array_walk()
+#21 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#23 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#24 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 /var/www/html/laravel/novo-projeto/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
+[2021-03-08 17:36:42] local.ERROR: syntax error, unexpected '}', expecting ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}', expecting ';' at /var/www/html/laravel/novo-projeto/routes/web.php:18)
+[stacktrace]
+#0 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register()
+#1 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/Router.php(382): Illuminate\\Routing\\Router->loadRoutes()
+#2 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(135): Illuminate\\Routing\\Router->group()
+#3 /var/www/html/laravel/novo-projeto/app/Providers/RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group()
+#4 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#9 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#10 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#14 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#15 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Container/Container.php(610): Illuminate\\Container\\BoundMethod::call()
+#16 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(113): Illuminate\\Container\\Container->call()
+#17 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(895): Illuminate\\Foundation\\Application->bootProvider()
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#20 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(896): array_walk()
+#21 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#23 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith()
+#24 /var/www/html/laravel/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 /var/www/html/laravel/novo-projeto/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
+[2021-03-08 17:42:15] local.ERROR: Command "server" is not defined.
+
+Did you mean one of these?
+    make:observer
+    serve {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"server\" is not defined.
+
+Did you mean one of these?
+    make:observer
+    serve at /var/www/html/novo-projeto/vendor/symfony/console/Application.php:675)
+[stacktrace]
+#0 /var/www/html/novo-projeto/vendor/symfony/console/Application.php(254): Symfony\\Component\\Console\\Application->find()
+#1 /var/www/html/novo-projeto/vendor/symfony/console/Application.php(166): Symfony\\Component\\Console\\Application->doRun()
+#2 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Console/Application.php(92): Symfony\\Component\\Console\\Application->run()
+#3 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#4 /var/www/html/novo-projeto/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2021-03-09 14:04:34] local.ERROR: Command "make:auth" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:auth\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at /var/www/html/novo-projeto/vendor/symfony/console/Application.php:675)
+[stacktrace]
+#0 /var/www/html/novo-projeto/vendor/symfony/console/Application.php(254): Symfony\\Component\\Console\\Application->find()
+#1 /var/www/html/novo-projeto/vendor/symfony/console/Application.php(166): Symfony\\Component\\Console\\Application->doRun()
+#2 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Console/Application.php(92): Symfony\\Component\\Console\\Application->run()
+#3 /var/www/html/novo-projeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#4 /var/www/html/novo-projeto/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
